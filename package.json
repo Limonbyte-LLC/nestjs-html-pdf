@@ -1,0 +1,103 @@
+{
+  "_from": "@saemhco/nestjs-html-pdf",
+  "_id": "@saemhco/nestjs-html-pdf@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-PkBHuB9DjnZ0iXMs143QEg8EKEReFcgU7azDzdKnR5bN+L9VMn8BXCcRbe75w6HsndvFdtxx7EGM5+54WfGfyQ==",
+  "_location": "/@saemhco/nestjs-html-pdf",
+  "_phantomChildren": {
+    "graceful-fs": "4.2.8",
+    "jsonfile": "6.1.0",
+    "universalify": "2.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@saemhco/nestjs-html-pdf",
+    "name": "@saemhco/nestjs-html-pdf",
+    "escapedName": "@saemhco%2fnestjs-html-pdf",
+    "scope": "@saemhco",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@saemhco/nestjs-html-pdf/-/nestjs-html-pdf-0.1.0.tgz",
+  "_shasum": "c7c145adc23289ed8bce0589d01f12be4a0c86c0",
+  "_spec": "@saemhco/nestjs-html-pdf",
+  "_where": "C:\\xampp\\htdocs\\ProyectoLimpieza\\api",
+  "author": {
+    "name": "Saúl Escandon",
+    "email": "e.m.saul.angel@gmail.com",
+    "url": "https://github.com/saemhco"
+  },
+  "bugs": {
+    "url": "https://github.com/saemhco/nestjs-html-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "handlebars": "^4.7.7",
+    "puppeteer": "^13.5.0"
+  },
+  "deprecated": false,
+  "description": "A NestJS module to generate PDF files from HTML",
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.1.0",
+    "husky": "^8.0.2",
+    "size-limit": "^8.1.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.1",
+    "typescript": "^3.9.10"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/saemhco/nestjs-html-pdf#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/nestjs-html-pdf.esm.js",
+  "name": "@saemhco/nestjs-html-pdf",
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saemhco/nestjs-html-pdf.git"
+  },
+  "scripts": {
+    "analyze": "size-limit --why",
+    "build": "tsdx build",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "start": "tsdx watch",
+    "test": "tsdx test"
+  },
+  "size-limit": [
+    {
+      "path": "dist/nestjs-html-pdf.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/nestjs-html-pdf.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "typings": "dist/index.d.ts",
+  "version": "0.1.0"
+}
